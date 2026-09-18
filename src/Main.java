@@ -28,6 +28,16 @@ void main() {
             double fahrenheit = 1.8 * stopnie + 32.0;
             System.out.println("Temperatura w Fahrenheitach: " + fahrenheit);
 
+            // Zad 5
+            System.out.println("Podaj dlugosc boku a");
+            int bokA = scanner.nextInt();
+            System.out.println("Podaj dlugosc boku b");
+            int bokB = scanner.nextInt();
+            System.out.println("Podaj dlugosc boku c");
+            int bokC = scanner.nextInt();
+            int obwod= bokA+bokB+bokC;
+            System.out.println("Obwod trojkata jest rowny:" +obwod);
+
 
 
 
