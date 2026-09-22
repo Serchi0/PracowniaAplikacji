@@ -38,6 +38,18 @@ void main() {
             int obwod= bokA+bokB+bokC;
             System.out.println("Obwod trojkata jest rowny:" +obwod);
 
+            //zad 6
+            System.out.println("Podaj pierwsze slowo");
+            String pierwszeSlowo = scanner.next();
+            System.out.println("Podaj pierwsze slowo");
+            String drugieSlowo = scanner.next();
+            System.out.println("Podaj pierwsze slowo");
+            String trzecieSlowo = scanner.next();
+            System.out.println(trzecieSlowo+","+drugieSlowo+","+pierwszeSlowo);
+
+
+
+
 
 
 
